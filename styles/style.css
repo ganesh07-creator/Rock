@@ -1,0 +1,61 @@
+   body{
+      background-color:maroon;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .title{
+     text-align:center ;
+      font-size:30px;
+    } 
+    .move-icon{
+      height:50px;
+
+    }
+    .move-button{
+      background-color: transparent;
+      border: 3px solid white ;
+      height: 100px;
+      width:100px;
+      border-radius:50px;
+      margin-right:10px;
+      cursor: pointer;
+      transition:height 0.15s, width 0.15s, background-color 0.15s, border 0.15s;
+    }
+    .move-button:hover{
+height:140px;
+width:140px;
+border-radius:70px;
+    }
+    .move-button:active{
+      background-color:white;
+      border: 3px solid rgb(11, 92, 80);
+    }
+    
+    .result{
+      font-size:30px;
+      font-weight: bold;
+      margin-top: 50px;
+
+    }
+    .reset-score-button{
+      background-color: white;
+      border:none;
+      font-size:15px;
+      padding: 8px 15px;
+      cursor: pointer;
+      transition:padding 0.15s,background-color 0.15s,color 0.15s;
+    }
+    .reset-score-button:hover{
+      padding: 10px 20px;
+    }
+    .reset-score-button:active{
+      background-color: black;
+      color:white;
+    }
+    .content{
+      justify-self:center;
+    }
+.js-moves,.js-movesq{
+  display: inline;
+}
